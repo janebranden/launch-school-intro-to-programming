@@ -1,0 +1,9 @@
+# exercises07.txt
+
+What's the major difference between an Array and a Hash?
+
+-------------------
+
+My answer:
+
+An array is indexed by number; a hash is indexed by key

@@ -1,0 +1,21 @@
+# exercises10.txt
+
+Can hash values be arrays? Can you have an array of hashes? (give examples)
+
+-------------------
+
+My answer:
+
+Yes, hash values can be arrays. Example:
+
+example1 = {
+array1: [1, 2, 3],
+array2: [4, 5, 6]
+}
+
+Yes, you can have an array of hashes. Example:
+
+example2 = [
+  {"rpg"=>"Dark Souls", "shooter"=>"Gears of War"},
+  {"platformer"=>"Super Mario 64", "arcade"=>"Galaga"}
+]

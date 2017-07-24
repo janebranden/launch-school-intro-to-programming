@@ -1,0 +1,16 @@
+methods4-solution.txt
+
+What will the following code print to the screen?
+
+def scream(words)
+  words = words + "!!!!"
+  return
+  puts words
+end
+
+scream("Yippeee")
+
+-----------------
+
+book solution:
+It will not print anything to the screen.

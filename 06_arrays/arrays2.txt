@@ -1,0 +1,35 @@
+# arrays2.txt
+
+What will the following programs return? What is value of arr after each?
+
+1. arr = ["b", "a"]
+   arr = arr.product(Array(1..3))
+   arr.first.delete(arr.first.last)
+2. arr = ["b", "a"]
+   arr = arr.product([Array(1..3)])
+   arr.first.delete(arr.first.last)
+
+---------------------------------------
+
+1. 1
+
+resulting array from .product is [["b", 1], ["b", 2], ["b", 3], ["a", 1], ["a", 2], ["a", 3]]
+
+.delete will remove all instances of specified value
+
+arr.first.delete(arr.first.last) means
+delete from the first pair, the last element of the first pair which is a 1
+it doesn't delete every instance of 1 from the entire array because you're telling it to look at only the first pair
+what is returned is what got deleted, i.e. 1
+
+2. [1, 2, 3]
+
+resulting array from .product is [["b", [1, 2, 3]], ["a", [1, 2, 3]]]
+
+arr.first.delete(arr.first.last) means delete the last element from the first pair which is ["b", [1, 2, 3]]
+the last element from the first pair is [1, 2, 3]
+what is returned is what got deleted, i.e. [1, 2, 3]
+
+
+** One of the big takeaways from this is what gets returned - delete does not return a modified array or a copy of the array;
+   it returns what got deleted

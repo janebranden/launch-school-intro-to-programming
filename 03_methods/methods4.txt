@@ -1,0 +1,18 @@
+methods4.txt
+
+What will the following code print to the screen?
+
+def scream(words)
+  words = words + "!!!!"
+  return
+  puts words
+end
+
+scream("Yippeee")
+
+-----------------
+
+My answer: 
+
+nothing
+the return knocks you out of the method before you get to the next line

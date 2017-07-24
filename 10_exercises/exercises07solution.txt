@@ -1,0 +1,9 @@
+# exercises07-solution.txt
+
+What's the major difference between an Array and a Hash?
+
+--------------
+
+book solution:
+
+The major difference between an array and a hash is that a hash contains a key value pair for referencing by key.

@@ -1,0 +1,12 @@
+# variables3-solution.rb
+
+# Write a program called name.rb that asks the user to type in their name 
+# and then prints out a greeting message with their name included.
+
+# book solution:
+
+# name.rb continued
+
+10.times do
+  puts name
+end

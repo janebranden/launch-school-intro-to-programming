@@ -1,0 +1,14 @@
+# exercises11.txt
+
+# Look at several Rails/Ruby online API sources and say which one you like best and why.
+
+--------------------------------
+
+My answer:
+
+I like Ruby-Doc.org because it's well-organized, thorough, has good/relevant examples,
+  and isn't overly wordy.  Also I feel like it's the definitive word on the subject since
+  it's from the source.
+
+It's the source I've ended up using about 95% of the time when I've needed to look something
+  up.  Even if I look at something else initially, I always end up going back to it.

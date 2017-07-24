@@ -1,0 +1,7 @@
+# more3.txt
+
+What is exception handling and what problem does it solve?
+
+exception handling = when you include code in your program to deal with potential problems that can come up 
+                     (unexpected input, e.g. nil value) so that the problem doesn't halt execution, thereby 
+                     breaking your program
